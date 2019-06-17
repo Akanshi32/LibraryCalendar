@@ -17,8 +17,11 @@ buildscript {
 allprojects {
     repositories {
         google()
+        maven(){
+            url "http://maven.slanglabs.in:8080/artifactory/gradle-release"}
+
         jcenter()
-        
+
     }
 }
 
